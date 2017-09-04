@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class DuplicateIteams {
+
+	HashMap<Object, Object> thp=new HashMap<Object, Object>();
+	public boolean duplicate(Object obj){
+		return (boolean) thp.put(obj, new Object());
+	}
+	
+	
+	public static void main(String[] args) {
+		ArrayList<String> kk= new ArrayList<String>();
+	    kk.add("ram");
+	    kk.add("kir");
+	    kk.add("varma");
+	    
+	    HashSet hst= new HashSet();
+	    hst.add("ram");
+	    for(String mm: kk){
+	    	System.out.println(mm);
+	    }
+	}
+	
+}

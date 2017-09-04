@@ -1,0 +1,17 @@
+package com.lambda.example;
+
+public class LambdaTest {
+
+	public static void main(String[] args) {
+      
+		SingleParameter sp=(name)-> {
+			System.out.println("welcome to java 8 "+name);
+		};
+		sp.sayHello("Ramesh");
+		
+		
+	// return values
+		ReturnLambda rs=(a, b)->(a+b);
+	}
+	
+}

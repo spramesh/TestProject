@@ -1,0 +1,6 @@
+
+public class SystemThreads {
+public static void main(String[] args) {
+	System syThrad=Thread.currentThread().getThreadGroup().getParent();
+}
+}

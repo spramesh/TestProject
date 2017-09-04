@@ -1,0 +1,9 @@
+package com.methodreference;
+
+public class StaticReference {
+
+	public static sayHello(){
+		System.out.println("hello");
+	}
+	
+}

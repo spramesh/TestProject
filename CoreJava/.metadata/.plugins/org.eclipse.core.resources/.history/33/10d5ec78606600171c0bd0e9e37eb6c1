@@ -1,0 +1,47 @@
+package com.lambda.example;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
+public class LambdaTest {
+
+	public static void main(String[] args) {
+      
+		SingleParameter sp=(name)-> {
+			System.out.println("welcome to java 8 "+name);
+		};
+		sp.sayHello("Ramesh");
+		
+		
+	// return values
+		ReturnLambda rs=(a, b)->(a+b);
+		
+		
+		// iteration logic
+		ArrayList<Product> li=new ArrayList<Product>();
+		li.add(new Product(20, "kiran"));
+		li.add(new Product(40, "aaa"));
+		li.add(new Product(80, "varma"));
+		li.forEach(p->System.out.println(p.getSname()));
+		
+		
+		// comparator example
+		
+		Comparator<Product> pk= new Comparator<Product>() {
+			@Override
+			public int compare(Product o1, Product o2) {
+				return o1.getSname().compareTo(o2.getSname());
+			}
+		};
+		
+		li.forEach(product->System.out.println(product.getSname()));
+		//Collections.sort(li,pk);
+		
+		
+		
+		
+	}
+	
+}

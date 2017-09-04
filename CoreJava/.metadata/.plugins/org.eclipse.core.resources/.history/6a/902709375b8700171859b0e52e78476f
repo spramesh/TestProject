@@ -1,0 +1,22 @@
+package com.coding;
+
+public class IntegerDuplicates {
+
+	public static void main(String[] args) {
+		int[] kiran={4,5,4,4,6,6,7};
+		int size=kiran.length;
+		for(int i=0;i<size;i++){
+			for(int j=i+1;j<size;j++){
+				if(kiran[i]==kiran[j]){
+					while(j<size-1){
+						kiran[j]=kiran[j+1];
+						j++;
+					}
+					size--;
+				}
+			}
+		}
+		System.out.println(kiran.length);
+	}
+	
+}

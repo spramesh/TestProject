@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class DuplicateString {
+
+	public static void main(String[] args) {
+		ArrayList<String> kk= new ArrayList<String>();
+		kk.add("Ramesh");
+		kk.add("kiran");
+		kk.add("Ramesh");
+		
+		for(String word:kk){
+		System.out.println("the word : "+ Dublicate(kk,word));
+		}
+	}
+	
+	
+	public static int Dublicate(ArrayList<String> listR,String word){
+		int count=0;
+		for(String origional:listR){
+			
+		}
+	}
+}

@@ -1,0 +1,9 @@
+package com.concurrent.lock;
+
+public class DemoSynchronied {
+public static void main(String[] args) {
+	Display d= new Display();
+	String name="dhone";
+	MyThread mt=new MyThread(d, name);
+}
+}

@@ -1,0 +1,10 @@
+package com.thread.threadPool;
+
+import java.util.concurrent.Callable;
+
+public class MyCallable implements Callable {
+String name;
+	myCallable(String name){
+	this.name=name;
+}
+}

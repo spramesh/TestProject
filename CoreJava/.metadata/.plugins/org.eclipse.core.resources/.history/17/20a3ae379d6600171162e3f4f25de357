@@ -1,0 +1,16 @@
+package com.methodreference;
+
+public class TestMethodReference {
+
+	
+	
+	public static void main(String[] args) {
+	
+		FuncationalIn ts=()->System.out.println("ramesh");
+		
+	// String s	=StaticReference::sayHello
+		
+	}
+	
+	
+}

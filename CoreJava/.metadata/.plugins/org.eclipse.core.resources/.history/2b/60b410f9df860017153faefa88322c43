@@ -1,0 +1,26 @@
+package com.coding;
+
+import java.util.ArrayList;
+
+public class DuplicatesinArrayList {
+
+	
+	public static void main(String[] args) {
+		ArrayList<String> alr= new ArrayList<String>();
+		alr.add("Ramesh");
+		alr.add("Ramesh");
+		alr.add("kiran");
+		
+		System.out.println(alr);
+		for(int i=0;i<alr.size();i++){
+			
+			for(int j=i+1;j<alr.size();j++){
+				if(alr.get(i).equals(alr.get(j))){
+					alr.remove(i);
+					j--;
+				}
+			}
+		}
+		System.out.println(alr);
+	}
+}

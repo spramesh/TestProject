@@ -1,0 +1,19 @@
+package com.methodreference;
+
+@FunctionalInterface
+public interface FuncationalIn {
+void sayHi();
+
+default String defaultMethod(){
+	System.out.println("defualt");
+	return "default";
+}
+
+public  static  void saticMethod(){
+	System.out.println("i am static in interface");
+}
+
+public static int k=80;
+
+
+}

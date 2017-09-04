@@ -1,0 +1,10 @@
+
+public class StringReverseExample {
+	public static void main(String[] args) {
+      
+		String str="string is reversal";
+		System.out.println("before : "+str);
+		
+		
+	}
+}

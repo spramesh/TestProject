@@ -1,0 +1,9 @@
+package com.methodreference;
+
+public interface FuncationalIn {
+void sayHi();
+
+default String defaultMethod(){
+	System.out.println("defualt");
+}
+}

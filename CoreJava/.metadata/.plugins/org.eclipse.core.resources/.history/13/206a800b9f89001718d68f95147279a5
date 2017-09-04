@@ -1,0 +1,16 @@
+import java.util.LinkedList;
+
+public class TestNode {
+
+	public static void main(String[] args) {
+		LinkedList<Integer> list= new LinkedList<Integer>();
+		list.add(2);
+		list.add(5);
+		list.add(9);
+		System.out.println(list);
+		for(int i=list.size();i>0;i--){
+			System.out.println(list[i]);
+		}
+		
+	}
+}

@@ -1,0 +1,6 @@
+package com.concurrent.lock;
+
+public class MyThread  extends Thread{
+
+	
+}

@@ -1,0 +1,16 @@
+package com.coding;
+
+import java.util.ArrayList;
+
+public class TestPassBy {
+
+	void static m(ArrayList<String> m){
+		m.add("Ramesh");
+	}
+	public static void main(String[] args) {
+		ArrayList<String> k=new ArrayList<String>();
+		k.add("Ramesh");
+		System.out.println(k);
+	}
+	
+}

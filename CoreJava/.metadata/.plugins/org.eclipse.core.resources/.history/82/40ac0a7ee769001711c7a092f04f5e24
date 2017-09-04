@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+
+public class DuplicateIteams {
+
+	public static void main(String[] args) {
+		ArrayList<String> kk= new ArrayList<String>();
+	    kk.add("ram");
+	    kk.add("kir");
+	    kk.add("varma");
+	    
+	    
+	}
+	
+}

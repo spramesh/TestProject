@@ -1,0 +1,11 @@
+package com.thread.threadPool;
+
+public class PrintThread  implements Runnable{
+
+	public PrintThread(String name) {
+		super(name);
+	}
+	public void run(){
+		
+	}
+}

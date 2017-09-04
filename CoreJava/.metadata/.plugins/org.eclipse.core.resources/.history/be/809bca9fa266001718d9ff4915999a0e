@@ -1,0 +1,8 @@
+package com.methodreference;
+
+public interface NotFunctionalIntercace {
+
+	public void sayNonFunctional(){
+		
+	}
+}

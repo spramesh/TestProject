@@ -1,0 +1,19 @@
+package com.coding;
+
+import java.util.ArrayList;
+
+public class TestPassBy {
+
+	  void m(ArrayList<String> m){
+		m.add("Varma");
+	}
+	public static void main(String[] args) {
+		ArrayList<String> k=new ArrayList<String>();
+		k.add("Ramesh");
+		System.out.println(k);
+		m(k);
+		System.out.println(k);
+	}
+	
+	
+}

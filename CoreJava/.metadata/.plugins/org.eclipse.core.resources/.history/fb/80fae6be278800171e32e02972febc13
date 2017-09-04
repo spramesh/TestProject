@@ -1,0 +1,18 @@
+package com.coding;
+
+public  class SingleTon {
+
+	private static SingleTon ramesh;
+	private SingleTon(){
+		
+	}
+	
+	public static SingleTon getInstace(){
+		if(null==ramesh){
+			ramesh= new SingleTon();
+		}
+		return ramesh;
+		
+	}
+	
+}

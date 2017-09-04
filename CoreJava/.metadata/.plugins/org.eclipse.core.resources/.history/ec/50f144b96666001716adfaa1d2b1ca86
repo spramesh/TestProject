@@ -1,0 +1,16 @@
+package com.stream;
+
+import java.util.ArrayList;
+
+import com.lambda.example.Product;
+
+public class Stream8 {
+
+	
+	public ArrayList<Employee> getEmployee(){
+	
+    ArrayList<Employee> alr= new ArrayList<Employee>();
+	     
+	}
+	
+}

@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+
+public class DuplicateIteams {
+
+	
+	public boolean duplicate(Object obj){
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		ArrayList<String> kk= new ArrayList<String>();
+	    kk.add("ram");
+	    kk.add("kir");
+	    kk.add("varma");
+	    
+	    HashSet hst= new HashSet();
+	    hst.add("ram");
+	}
+	
+}
