@@ -1,7 +1,0 @@
-package com.concurrent.lock;
-
-public class DemoSynchronied {
-public static void main(String[] args) {
-	
-}
-}

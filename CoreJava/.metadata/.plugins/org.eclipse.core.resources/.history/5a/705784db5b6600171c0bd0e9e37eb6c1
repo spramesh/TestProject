@@ -1,5 +1,0 @@
-package com.lambda.example;
-
-public interface SingleParameter {
-
-}

@@ -1,9 +1,0 @@
-package com.lambda.example;
-
-public class Product {
-
-private int sno;
-privat String sname;
-
-	
-}

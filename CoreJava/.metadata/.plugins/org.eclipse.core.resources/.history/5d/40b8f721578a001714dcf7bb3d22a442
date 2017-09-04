@@ -1,5 +1,0 @@
-package com.concurrent.lock;
-
-public class DemoSynchronied {
-
-}

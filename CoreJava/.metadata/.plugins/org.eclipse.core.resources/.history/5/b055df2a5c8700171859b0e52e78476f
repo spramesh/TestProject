@@ -1,8 +1,0 @@
-package com.coding;
-
-public class IntegerDuplicates {
-
-	public static void main(String[] args) {
-		
-	}
-}

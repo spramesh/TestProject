@@ -1,6 +1,0 @@
-package com.methodreference;
-
-public interface FuncationalIn {
-void sayHi();
-int sum();
-}

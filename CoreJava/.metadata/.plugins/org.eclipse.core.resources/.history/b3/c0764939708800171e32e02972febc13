@@ -1,9 +1,0 @@
-import java.sql.SQLException;
-
-public class A {
-
-	
-	public double m() throws SQLException{
-		return 0;
-	}
-}

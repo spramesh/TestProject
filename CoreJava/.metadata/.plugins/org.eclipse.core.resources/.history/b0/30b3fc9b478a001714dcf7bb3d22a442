@@ -1,7 +1,0 @@
-
-public class SystemThreads {
-public static void main(String[] args) {
-	ThreadGroup syThrad=Thread.currentThread().getThreadGroup().getParent();
-	ThreadGroup[] threadGroup=new ThreadGroup[syThrad.activeCount()];
-}
-}
